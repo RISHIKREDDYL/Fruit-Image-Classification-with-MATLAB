@@ -3,7 +3,7 @@
 This code implements a fruit and vegetable classification using a pre-trained Google Inception neural network. The dataset used consists of 33 different fruits and vegetables classes. The validation and test accuracy of this model are both 100%.
 
 # Dataset
-The dataset used in this project can be found at [Kaggle.](https://www.kaggle.com/datasets/sshikamaru/fruit-recognition/code)
+The dataset used in this project can be found at [Kaggle.](https://www.kaggle.com/datasets/sshikamaru/fruit-recognition)
 
 # Implementation Details
 The code starts by loading the image data and then reducing all labels to 200 images, before splitting the dataset between training, validation, and testing sets. The pre-trained GoogleNet is then loaded, and the last layers are replaced for the classification task. The new feature learner and classifier layer are defined, and the layer graph is replaced with the new layers.
